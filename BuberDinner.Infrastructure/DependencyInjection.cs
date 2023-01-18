@@ -21,7 +21,6 @@ public static class DependencyInjection
             .AddPersistance();
 
         services.AddSingleton<IDateTimerProvider, DateTimeProvider>();
-
         
 
         return services;
